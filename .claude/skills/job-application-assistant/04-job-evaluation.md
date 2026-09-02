@@ -4,7 +4,7 @@ framework_version: 1.1.0
 
 # Job Evaluation Framework
 
-<!-- SETUP: Skill match areas and career goals are personalized by running /setup -->
+<!-- Skill match areas and career goals personalized via /setup Path C, July 2026 -->
 
 ## Eligibility Gate — run before scoring
 
@@ -44,9 +44,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** Corporate VC deal lifecycle (sourcing → IC → closing); corporate development and M&A; buy-side and vendor financial due diligence (QoE, WC, net debt); financial modelling from scratch (DCF, scenarios, cash-flow, cap tables); commercial and technical DD coordination in deep tech; board observer / portfolio governance; cross-border investing (Greater China, India, Singapore, Japan)
+**Moderate match areas:** Pure PE fund operations (less CVC/strategic angle); operator-side strategy/BD/fundraising at startups (open track, less deal-count history); sector pivots outside materials/industrials/deep tech
+**Weak match areas:** Pure software engineering or data-science IC roles; roles with no investment, strategy, or capital-markets component; early-stage operating roles without strategic/fundraising mandate
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -58,9 +58,9 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** CVC / strategic VC (BASF, SABIC); corp dev / M&A (Voith); Big Four transaction services (PwC); deep-tech sectors (materials, decarbonization, ag-tech, hardware); Asia cross-border mandate
+**Moderate:** Family office or independent sponsor (similar skills, different platform); startup strategy / IR / fundraising (operator track); PE growth equity (transferable DD and modelling, less strategic-industrial lens)
+**Entry-level:** N/A — 20+ years senior experience
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -72,13 +72,14 @@ Does the role and company culture match the behavioral profile?
 | 40-59 | Some friction areas |
 | 0-39 | Significant culture mismatch |
 
-**Red flags to research:** Department disorganization, work dominated by maintenance over development, poor chemistry with leadership, culture mismatches. Check reviews, media coverage, LinkedIn connections, and network contacts for insider perspective.
+**Red flags to research:** Politics-over-merit decision culture; pure financial shops with no industrial/strategic logic; unfunded platforms without committed capital; heavy admin with no analytical judgment; relocation outside GBA. Check reviews, media coverage, LinkedIn connections, and network contacts for insider perspective.
 
 ### 4. Location & Logistics (Pass/Fail + Notes)
-- Within commute range: PASS
-- Remote with occasional office: PASS
-- Requires relocation: FAIL (deal-breaker)
-- Frequent international travel: FLAG (discuss with user)
+- **GBA (Hong Kong preferred):** PASS
+- **Other cities in GBA (Shenzhen, Guangzhou, etc.):** PASS if role is GBA-based
+- **Requires relocation outside GBA:** FAIL (hard deal-breaker)
+- **Remote with occasional GBA travel:** PASS — discuss frequency
+- **Frequent international travel:** FLAG (discuss with user)
 
 ### 5. Career Alignment & Motivation (0-100)
 Does this role advance career goals and contain tasks that energize?
@@ -91,19 +92,19 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- **Investor track (core):** Middle-management investment roles at CVC, strategic/industrial investors, or family offices (Manager / Senior Manager / AVP); or corp dev / M&A at multinationals at the same level — not Head / Director / C-suite unless IC-heavy with bounded travel
+- **Operator track (open):** Senior strategy, BD, or fundraising at deep-tech scale-ups — strategic planning, IR, fundraising; China–Europe–Asia bridge
+- **Common thread:** Deep-tech / advanced materials; senior seat with real ownership; bridge between technology, capital, and cross-border stakeholders
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
-- Non-task factors: leadership style, department culture, company values, degree of autonomy
+- Tasks that energize: Deal flow; finding technical differentiators early; portfolio value creation (board observer, BU connections); building/scaling investment capability in GBA
+- Tasks that drain: Misaligned incentives; politics over merit; repetitive admin without analytical judgment
+- Non-task factors: Autonomy, lean teams, genuine strategic capital, real GBA mandate, direct access to decision-makers
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security:** Not recorded (user skipped salary expectations)
+- **Flexibility:** GBA-only constraint is firm (financial and family reasons); Hong Kong preferred. Two young kids — prefer middle management; flag heavy travel, overnight trips, or routinely extreme hours as soft deal-breakers
+- **Professional development:** Platforms with genuine strategic capital and industrial logic; avoid pure-financial or unfunded early platforms
 
 ### 6. Salary Benchmark (Optional)
 

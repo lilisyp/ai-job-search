@@ -115,12 +115,16 @@ When the role sits outside your home domain, **lead with the domain-transfer arg
 
 **Create 2-3 profile statement templates for your main role types:**
 
-<!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**CV language:** English and Chinese — tailor per application. Use English for international/CVC roles in HK and cross-border mandates; use Chinese for mainland GBA-focused roles. Translate section headings (`\section{...}`) to match the CV language (see rule above).
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For corporate VC / strategic investment roles (Director / VP / Head of Investment):**
+> Corporate venture investor with 8+ years leading Asia deep-tech deal flow at BASF Venture Capital and SABIC Ventures, on top of Big Four transaction services and industrial M&A. Owns the full lifecycle from sourcing through IC to closing across Greater China, India, Singapore, and Japan. Board observer to four portfolio companies; track record includes multi-round ag-tech investments (IPO filing) and rigorous pass decisions backed by independent financial models and customer validation. Bilingual (Mandarin/English); based in Hong Kong, GBA.
+
+**For corporate development / M&A roles:**
+> Corporate development and M&A leader with 20 years spanning Big Four financial due diligence, industrial M&A (Voith China), and strategic venture investing (BASF, SABIC). Built Voith's China M&A capability from zero and closed first China transactions; later led Asia deep-tech investments with full commercial and technical diligence. Combines QoE-grade financial analysis with hands-on validation of technical differentiators and downstream markets. Bilingual; GBA-based (Hong Kong).
+
+**For operator strategy / BD / fundraising roles (deep-tech scale-ups):**
+> Senior strategy and capital-markets professional bridging deep-tech companies and global industrial investors. Two decades across PwC transaction services, corporate M&A, and CVC — including board observer roles, fundraising support, and startup–corporate business-unit partnerships. Brings China–Europe–Asia cross-border experience and bilingual (Mandarin/English) investor relations to scale-ups in advanced materials, decarbonization, and intelligent hardware. Based in Hong Kong, GBA.
 
 Statements labeled *[Used for: <company>_<role>]* were extracted from archived application drafts by `/setup` Path A. They are **phrasing references, never fact sources**: when drafting from one, every factual claim still comes from `01-candidate-profile.md` - a past tailored draft does not vouch for its own accuracy.
 
