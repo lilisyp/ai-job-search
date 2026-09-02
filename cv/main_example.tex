@@ -1,164 +1,117 @@
-%% Example CV - [YOUR_NAME]
+%% Example CV - Li Li
 %% Comprehensive overview of all competencies, experience, and achievements.
 %% Use as a master reference when tailoring role-specific CVs.
 %%
-%% SETUP: Run /setup to populate this with your actual information.
 %% Compile with: lualatex main_example.tex
-%% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
+
+\PassOptionsToPackage{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Li Li - CV},
+    pdfpagemode=FullScreen,
+}{hyperref}
 
 \documentclass[11pt,a4paper,sans]{moderncv}
 \moderncvstyle{banking}
 \moderncvcolor{blue}
 
-% Force both first and last name AND section headings to render in moderncv
-% blue (color1). Default banking on lualatex+MiKTeX leaves these black, which
-% looks inconsistent with the rest of the blue accent scheme.
-\renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
-\renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
-\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
-
 \usepackage[utf8]{inputenc}
-\usepackage{hyperref}
-\hypersetup{
-    colorlinks=true,
-    linkcolor=blue,
-    filecolor=magenta,
-    urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
-    pdfpagemode=FullScreen,
-}
+\usepackage{needspace}
 \usepackage[scale=0.80]{geometry}
 \usepackage{import}
 
-% personal data
-\name{[First]}{[Last]}
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+\name{Li}{Li}
+\address{Hong Kong, Greater Bay Area, China}{}{}
+\phone[mobile]{+852 9167 3399}
+\email{lily.lemon@gmail.com}
+\extrainfo{\href{https://linkedin.com/in/li-li-basf}{LinkedIn}}
 
 \begin{document}
 
 \makecvtitle
 
-% ============================================================
-%     PROFILE STATEMENT
-% ============================================================
-
 \vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
-
-% ============================================================
-%     CORE COMPETENCIES
-% ============================================================
+\small{Corporate venture investor with 8+ years leading Asia deep-tech deal flow at BASF Venture Capital and SABIC Ventures, on top of Big Four transaction services and industrial M\&A. Owns the full lifecycle from sourcing through IC to closing across Greater China, India, Singapore, and Japan. Board observer to four portfolio companies; bilingual (Mandarin/English); based in Hong Kong, GBA.}
 
 \section{Core Competencies}
 \vspace{1pt}
 \begin{itemize}
 
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
+\item \textbf{Corporate Venture Capital}: Full deal lifecycle --- sourcing, evaluation, IC pitching, due diligence, closing; Asia mandate (China, India, Singapore, Japan)
 
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
+\item \textbf{Financial Due Diligence \& Modelling}: QoE, working capital, net debt (PwC TS); projections from scratch, DCF, scenario/sensitivity analysis, cap tables and VC structuring
 
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
+\item \textbf{Technical \& Commercial DD}: Isolate core technical differentiators; validate via pilot and prospective-customer interviews; independent financial models driving IC decisions
 
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
+\item \textbf{Domain Expertise}: Deep tech, advanced materials, decarbonization/hydrogen, membranes \& filtration, ag-tech, 3D printing, intelligent hardware
 
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
+\item \textbf{Portfolio \& Strategic Value}: Board observer (4 companies); startup--corporate BU collaborations; cross-border China--Europe--Asia bridge
 
 \end{itemize}
-
-% ============================================================
-%     PROFESSIONAL EXPERIENCE
-% ============================================================
 
 \section{Professional Experience}
 \vspace{3pt}
 \begin{itemize}
 
-% --- Most Recent Role ---
-\item{\cventry{[YYYY--Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{2018--Jun 2026}{Senior Investment Manager}{BASF Venture Capital}{Shanghai / Hong Kong}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1 - be specific, use numbers where possible]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
-    \item [Achievement or responsibility 4]
+    \item Led Asia deep-tech investing (intelligent hardware, decarbonization, advanced materials, process tech); full deal lifecycle
+    \item Board observer for four portfolio companies (China \& India); drove startup--BASF BU collaborations
+    \item \textbf{EAVision} (agro-drone): multi-round investment (2020, 2022); company filing for IPO
+    \item \textbf{Company X} (nanofiltration membrane): technical \& commercial DD; built model from scratch; recommended against at IC
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Previous Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{2015--2018}{Investment Manager}{SABIC Ventures}{Shanghai}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
+    \item Closed SABIC's first China fund investment (2017)
+    \item Led first direct equity --- \textbf{Prismlab} (3D printing, 2018); valuation 3$\times$+ by 2022; IPO filing
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Earlier Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{2011--2015}{Corp.\ Development \& M\&A Manager}{Voith Group}{Shanghai}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
+    \item Built corp dev/M\&A for Voith China; completed first China M\&A transaction
+    \item Managed cross-regional strategy projects with BCG, Bain, McKinsey
+\end{itemize}}}
+
+\vspace{3pt}
+
+\needspace{5\baselineskip}
+\item{\cventry{2004--2011}{Assurance \& Transaction Services, Assoc.\ Manager}{PwC}{Shanghai}{}{\vspace{1pt}
+\begin{itemize}
+    \item Buy-side \& vendor FDD for Warburg Pincus, TPG, Sequoia; QoE, WC, net debt
+    \item Sector focus: manufacturing, retail, industrials
 \end{itemize}}}
 
 \end{itemize}
 
-% ============================================================
-%     EDUCATION
-% ============================================================
-
-\section{Education}
+\section{Education \& Certifications}
 \vspace{1pt}
 \begin{itemize}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
-}}
+\item{\cventry{2000--2004}{BA, Economics}{Fudan University}{Shanghai, China}{}{}}
 
 \vspace{3pt}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
+\item{\cventry{}{Certifications}{}{}{}{\vspace{1pt}
+Passed all three levels of the CFA Program (Level III Aug 2009); not yet charterholder (pending qualified work experience) \textbar{} CICPA (Jan 2009) \textbar{} Advanced Interpretation Certificate (writing component) \textbar{} ESG and Climate Change (University of Pennsylvania / Coursera, Mar 2024) \textbar{} Generative AI for Everyone (Coursera)
 }}
 
 \end{itemize}
-
-% ============================================================
-%     LANGUAGES
-% ============================================================
 
 \section{Languages}
 \vspace{1pt}
 \begin{itemize}
-\item [Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).
+\item Mandarin Chinese (native), English (professional working language, 20+ years), Cantonese (functional listening).
 \end{itemize}
-
-% ============================================================
-%     PUBLICATIONS (optional)
-% ============================================================
-
-\section{Publications}
-\vspace{1pt}
-\begin{itemize}
-\item [Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}
-\end{itemize}
-
-% ============================================================
-%     HONORS AND AWARDS (optional)
-% ============================================================
-
-\section{Honors and Awards}
-\vspace{1pt}
-\begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
-\end{itemize}
-
-% ============================================================
-%     REFERENCES
-% ============================================================
 
 \section{References}
 \vspace{1pt}
